@@ -1,0 +1,145 @@
+/* Genel Tanımlamalar */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 5%;   
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+h1{
+    color: rgb(209, 81, 81);
+    font-family: Verdana;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2{
+    color: rgb(0, 179, 255);
+    font-family: Verdana;
+    font-size: 3rem;
+    text-align: center;
+}
+
+p{
+    color: rgb(0, 179, 255);
+    font-family: Verdana;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+button{
+    padding: 2%;
+    font-family: Verdana;
+    font-size: 1.5rem;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: red;
+}
+
+/* Oyun Ekranının Stili */
+
+.gameScreen{
+    padding: 5%;    
+    border-radius: 3%;
+    width: 130vh;
+    height: 80vh;
+    background-image: url(./images/sky.jpg);
+    background-size: cover;
+}
+
+.gameScreen .message{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: black;
+}
+
+#canvas1, #canvas2, #canvas3, #canvas4, #canvas5, #message2, #settings{
+    display: none;
+    width: 130vh;
+    height: 80vh;
+}
+
+/* Sayfanın Son Kısmının Stili */
+
+nav{
+    padding: 3.5rem 7%;
+}
+
+.finish{
+    background-color: black;
+    padding: 2.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.finish button{
+    border: 0.1rem solid white;
+    height: 4rem;
+    width: 8rem;
+    padding: 0.7rem 0.7rem;
+    cursor: pointer;
+}
+
+.finish .active{
+    background-color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.finish .socialAccounts{
+    display: flex;    
+    gap: 1rem;
+}
+
+.finish .socialAccounts .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    border: 0.1rem solid white;
+    background-color: brown;
+    color: white;
+    border-radius: 100%;
+    font-size: 2rem;    
+}
+
+.finish .socialAccounts .account:hover{
+    background-color: red;
+}
+
+.finish .admin{
+    display: flex;
+    font-size: 1.5rem;
+    color: white;
+}

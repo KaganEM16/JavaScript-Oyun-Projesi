@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yıldız Birleştirme Oyunu</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <!-- Arka plan müziği -->
+  <audio id="bgm" src="./audio/space.mp3" loop></audio>
+
+  <h1>Yıldız Birleştirme Oyunu</h1>
+
+  <!-- Oyun Ekranı -->
+  <div class="gameScreen">
+    <!-- Kullanıcıyı karşılama mesajı -->
+    <div class="message" id="message1">
+      <h2>Oyunumuza Hoşgeldiniz</h2>
+      <p>Oyuna başlamaya hazır mısınız?</p>
+      <button onclick="gecisYap(message1, canvas1, 0)">Başla</button>
+      <button onclick="gecisYap(message1, settings, 0);">Ayarlar</button>
+    </div>
+    <!-- Oyunun aşamaları -->
+    <canvas id="canvas1"></canvas>
+    <canvas id="canvas2"></canvas>
+    <canvas id="canvas3"></canvas>
+    <canvas id="canvas4"></canvas>
+    <!-- Oyunun tamamlanma mesajı -->
+    <div class="message" id="message2">
+      <h2>Tebrikler Oyunu Tamamladınız</h2>
+      <p>Yeniden oynamaya ne dersiniz?</p>
+      <button onclick="restartGame()">Yeniden Oyna</button>
+      <button onclick="gecisYap(message2, settings, 0);">Ayarlar</button>
+    </div>
+    <!-- Ayarlar kısmı -->
+    <div class="message" id="settings">
+      <h2>Ayarlar</h2>
+      <p>Ses:</p>
+      <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="0.5" />
+      <button onclick="gecisYap(settings, message2, 1);">Geri</button>
+    </div>
+  </div>
+
+  <!-- Sayfanın en alt (footer) kısmı -->
+  <nav class="finish">
+    <div class="socialAccounts">
+      <div class="account"><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></div>
+      <div class="account"><a href="https://twitter.com/"><i class="bi bi-twitter-x"></i></a></div>
+      <div class="account"><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></div>
+      <div class="account"><a href="https://www.linkedin.com/in/"><i class="bi bi-linkedin"></i></a></div>
+      <div class="account"><a href="https://github.com/KaganEM16"><i class="bi bi-github"></i></a></div>
+    </div>
+    <div class="admin">Created By Kağan Emre Meral | All Rights Reserved</div>
+  </nav>
+
+  <script>
+    // Global Tanımlanan Fonksiyonlar
+    function gecisYap(hide, show, code) {
+      hide.style.display = "none";
+      show.style.display = "flex";
+      if (show.tagName === 'CANVAS') {
+        show.style.display = "block";
+      }
+      if(code == 1){
+        resetAllCanvases();
+      }
+    }
+    
+    function resetAllCanvases() {
+      if (typeof resetCanvas1 === "function") resetCanvas1();
+      if (typeof resetCanvas2 === "function") resetCanvas2();
+      if (typeof resetCanvas3 === "function") resetCanvas3();
+      if (typeof resetCanvas4 === "function") resetCanvas4();
+    }
+
+    function restartGame() {
+      gecisYap(message2, canvas1);
+      resetAllCanvases();
+    }
+    
+    const audio = document.getElementById("bgm");
+    const volumeSlider = document.getElementById("volumeControl");
+
+    document.body.addEventListener("click", () => {
+      if (audio.paused) {
+        audio.play();
+      }
+    }, { once: true });
+
+    audio.volume = volumeSlider.value;
+    volumeSlider.addEventListener("input", () => {
+      audio.volume = volumeSlider.value;
+    });
+  </script>
+
+  <script src="./js Dosyaları/canvas1.js"></script>
+  <script src="./js Dosyaları/canvas2.js"></script>
+  <script src="./js Dosyaları/canvas3.js"></script>
+  <script src="./js Dosyaları/canvas4.js"></script>
+</body>
+</html>
