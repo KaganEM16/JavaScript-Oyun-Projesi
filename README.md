@@ -13,9 +13,11 @@ Mouse yeni bir yıldızın üzerine geldiğinde çizgi uzunluğu yetiyorsa o yı
 
 ## Oyundan Görseller
 
-images/Örnek Görsel 1.png
-images/Örnek Görsel 2.png
-images/Örnek Görsel 3.png
+![Örnek Resim 1](images/örnek-resim-1.png "Başlık 1")  
+
+![Örnek Resim 2](images/örnek-resim-2.png "Başlık 2")  
+
+![Örnek Resim 3](images/örnek-resim-3.png "Başlık 3")  
 
 ## Oynanışa Dair Youtube Videosu
 
