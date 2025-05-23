@@ -13,9 +13,9 @@ Mouse yeni bir yıldızın üzerine geldiğinde çizgi uzunluğu yetiyorsa o yı
 
 ## Oyundan Görseller
 
-<img src="https://github.com/KaganEM16/JavaScript-Oyun-Projesi/raw/main/images/Ornek-Gorsel-1.png" width="400">
 <img src="https://github.com/KaganEM16/JavaScript-Oyun-Projesi/blob/main/images/Ornek%20Gorsel%201.png" width="400">
-<img src="https://github.com/KaganEM16/JavaScript-Oyun-Projesi/raw/main/images/Ornek-Gorsel-3.png" width="400">
+<img src="https://github.com/KaganEM16/JavaScript-Oyun-Projesi/blob/main/images/Ornek%20Gorsel%202.png" width="400">
+<img src="https://github.com/KaganEM16/JavaScript-Oyun-Projesi/blob/main/images/Ornek%20Gorsel%203.png" width="400">
 
 ## Oynanışa Dair Youtube Videosu
 
