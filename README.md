@@ -11,8 +11,8 @@ Mouse yeni bir yıldızın üzerine geldiğinde çizgi uzunluğu yetiyorsa o yı
 ## Oynanışa Dair Youtube Videosu
 
 ## Oyunda Kullanılan Asset'lerin Kaynakları
-Arka plan resmi: https://depositphotos.com/photos/sky-stars.html
-Yıldız resmi: https://icons.getbootstrap.com/icons/star-fill/
-Sosyal Medya İkonları: https://icons.getbootstrap.com/
-Arka Plan Müziği: https://pixabay.com/tr/sound-effects/star-searching-184617/
-Tıklama Efekti: https://mixkit.co/free-sound-effects/click/
+--Arka plan resmi: https://depositphotos.com/photos/sky-stars.html
+--Yıldız resmi: https://icons.getbootstrap.com/icons/star-fill/
+--Sosyal Medya İkonları: https://icons.getbootstrap.com/
+--Arka Plan Müziği: https://pixabay.com/tr/sound-effects/star-searching-184617/
+--Tıklama Efekti: https://mixkit.co/free-sound-effects/click/
