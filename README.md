@@ -2,7 +2,7 @@
 
 ## Oyunun Amacı
 
-Yıldız birleştirme oyunu 2021 yılında Game Jam yarışmasında sıralamaya girmiş Paisible Soirèe au Fil d'Ètoiles (https://troleoleo.itch.io/paisible-soiree-etoiles) isimli 
+Yıldız birleştirme oyunu 2021 yılında Game Jam yarışmasında sıralamaya girmiş [Paisible Soirèe au Fil d'Ètoiles](https://troleoleo.itch.io/paisible-soiree-etoiles) isimli 
 oyunun mekaniklerini basit bir şekilde uygulamak için HTML5, JavaScript ve Canvas kullanılarak kodlanmış bir oyun projesidir. Oyunda amaç, her bir bölümde verilen yıldızları
 birleştirerek oyunu tamamlamaktır.
 
@@ -21,8 +21,8 @@ Mouse yeni bir yıldızın üzerine geldiğinde çizgi uzunluğu yetiyorsa o yı
 
 ## Oyunda Kullanılan Asset'lerin Kaynakları
 
-- **Arka plan resmi:** [depositphotos.com](https://depositphotos.com/photos/sky-stars.html)  
-- **Yıldız resmi:** [Bootstrap Icons - Star](https://icons.getbootstrap.com/icons/star-fill/)  
+- **Arka Plan Resmi:** [depositphotos.com](https://depositphotos.com/photos/sky-stars.html)  
+- **Yıldız Resmi:** [Bootstrap Icons - Star](https://icons.getbootstrap.com/icons/star-fill/)  
 - **Sosyal Medya İkonları:** [Bootstrap Icons](https://icons.getbootstrap.com/)  
 - **Arka Plan Müziği:** [Pixabay - Star Searching](https://pixabay.com/tr/sound-effects/star-searching-184617/)  
 - **Tıklama Efekti:** [Mixkit - Click Sound](https://mixkit.co/free-sound-effects/click/)  
