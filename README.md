@@ -19,7 +19,7 @@ Mouse yeni bir yıldızın üzerine geldiğinde çizgi uzunluğu yetiyorsa o yı
 
 ## Oynanışa Dair Youtube Videosu
 
-
+https://www.youtube.com/watch?v=kXii5I9tJg8
 
 ## Oyunda Kullanılan Asset'lerin Kaynakları
 
