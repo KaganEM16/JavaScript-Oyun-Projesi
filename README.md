@@ -10,6 +10,7 @@ birleştirerek oyunu tamamlamaktır.
 
 Oyunda her bir bölümde verilen yıldızlar doğru sırayla birleştirilmelidir. Bunun için en soldaki yıldıza tıklanarak başlanır ve mouse sırayla diğer yıldızların üzerinde gezdirilir.
 Mouse yeni bir yıldızın üzerine geldiğinde çizgi uzunluğu yetiyorsa o yıldızla çizginin oluşturulduğu yıldız birleştirilir ve bağlanan yıldızdan yeni bir çizgi oluşur. Bu şekilde bölüm tamamlanmalıdır.
+Oyuna şu siteden ulaşabilirsiniz: https://kaganem16.github.io/JavaScript-Oyun-Projesi/
 
 ## Oyundan Görseller
 
